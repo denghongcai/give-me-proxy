@@ -48,7 +48,7 @@ module.exports = [
         transform: function (body) {
             return cheerio.load(body.toString('utf8'));
         }
-    }
+    },
     /*
     { TODO: implement
         name: 'idcloak',
@@ -61,7 +61,6 @@ module.exports = [
         }
     },
     */
-    /*
     {
         name: 'hide-my-ip',
         headers: {
@@ -73,5 +72,4 @@ module.exports = [
         }
 
     }
-    */
 ];
